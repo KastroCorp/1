@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button2{
+	visibility:hidden;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px 15px;
+    transition-property: visibility;
+}
+
+.button1{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 15px 15px;
+}
+
+.button1:hover + .button2{
+	visibility:visible;
+}
+
+
+</style>
+</head>
+<body>
+
+<button class="button1">The least fair player</button>
+<button class="button2">L4</button>
+
+
+</body>
+</html>
